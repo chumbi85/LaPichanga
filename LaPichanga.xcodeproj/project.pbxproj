@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46451541A87AC30005E4C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46451531A87AC30005E4C62 /* AppDelegate.swift */; };
+		B46451561A87AC30005E4C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46451551A87AC30005E4C62 /* ViewController.swift */; };
+		B46451591A87AC30005E4C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46451571A87AC30005E4C62 /* Main.storyboard */; };
+		B464515B1A87AC30005E4C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B464515A1A87AC30005E4C62 /* Images.xcassets */; };
+		B464515E1A87AC30005E4C62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B464515C1A87AC30005E4C62 /* LaunchScreen.xib */; };
+		B464516A1A87AC30005E4C62 /* LaPichangaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46451691A87AC30005E4C62 /* LaPichangaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46451641A87AC30005E4C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46451461A87AC30005E4C62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B464514D1A87AC30005E4C62;
+			remoteInfo = LaPichanga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B464514E1A87AC30005E4C62 /* LaPichanga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaPichanga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46451521A87AC30005E4C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46451531A87AC30005E4C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B46451551A87AC30005E4C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B46451581A87AC30005E4C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B464515A1A87AC30005E4C62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B464515D1A87AC30005E4C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B46451631A87AC30005E4C62 /* LaPichangaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaPichangaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46451681A87AC30005E4C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46451691A87AC30005E4C62 /* LaPichangaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaPichangaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B464514B1A87AC30005E4C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46451601A87AC30005E4C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46451451A87AC30005E4C62 = {
+			isa = PBXGroup;
+			children = (
+				B46451501A87AC30005E4C62 /* LaPichanga */,
+				B46451661A87AC30005E4C62 /* LaPichangaTests */,
+				B464514F1A87AC30005E4C62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B464514F1A87AC30005E4C62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B464514E1A87AC30005E4C62 /* LaPichanga.app */,
+				B46451631A87AC30005E4C62 /* LaPichangaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46451501A87AC30005E4C62 /* LaPichanga */ = {
+			isa = PBXGroup;
+			children = (
+				B46451531A87AC30005E4C62 /* AppDelegate.swift */,
+				B46451551A87AC30005E4C62 /* ViewController.swift */,
+				B46451571A87AC30005E4C62 /* Main.storyboard */,
+				B464515A1A87AC30005E4C62 /* Images.xcassets */,
+				B464515C1A87AC30005E4C62 /* LaunchScreen.xib */,
+				B46451511A87AC30005E4C62 /* Supporting Files */,
+			);
+			path = LaPichanga;
+			sourceTree = "<group>";
+		};
+		B46451511A87AC30005E4C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B46451521A87AC30005E4C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B46451661A87AC30005E4C62 /* LaPichangaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46451691A87AC30005E4C62 /* LaPichangaTests.swift */,
+				B46451671A87AC30005E4C62 /* Supporting Files */,
+			);
+			path = LaPichangaTests;
+			sourceTree = "<group>";
+		};
+		B46451671A87AC30005E4C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B46451681A87AC30005E4C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B464514D1A87AC30005E4C62 /* LaPichanga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B464516D1A87AC30005E4C62 /* Build configuration list for PBXNativeTarget "LaPichanga" */;
+			buildPhases = (
+				B464514A1A87AC30005E4C62 /* Sources */,
+				B464514B1A87AC30005E4C62 /* Frameworks */,
+				B464514C1A87AC30005E4C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaPichanga;
+			productName = LaPichanga;
+			productReference = B464514E1A87AC30005E4C62 /* LaPichanga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46451621A87AC30005E4C62 /* LaPichangaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46451701A87AC30005E4C62 /* Build configuration list for PBXNativeTarget "LaPichangaTests" */;
+			buildPhases = (
+				B464515F1A87AC30005E4C62 /* Sources */,
+				B46451601A87AC30005E4C62 /* Frameworks */,
+				B46451611A87AC30005E4C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46451651A87AC30005E4C62 /* PBXTargetDependency */,
+			);
+			name = LaPichangaTests;
+			productName = LaPichangaTests;
+			productReference = B46451631A87AC30005E4C62 /* LaPichangaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46451461A87AC30005E4C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = IMAQUINUA;
+				TargetAttributes = {
+					B464514D1A87AC30005E4C62 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B46451621A87AC30005E4C62 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B464514D1A87AC30005E4C62;
+					};
+				};
+			};
+			buildConfigurationList = B46451491A87AC30005E4C62 /* Build configuration list for PBXProject "LaPichanga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46451451A87AC30005E4C62;
+			productRefGroup = B464514F1A87AC30005E4C62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B464514D1A87AC30005E4C62 /* LaPichanga */,
+				B46451621A87AC30005E4C62 /* LaPichangaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B464514C1A87AC30005E4C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46451591A87AC30005E4C62 /* Main.storyboard in Resources */,
+				B464515E1A87AC30005E4C62 /* LaunchScreen.xib in Resources */,
+				B464515B1A87AC30005E4C62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46451611A87AC30005E4C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B464514A1A87AC30005E4C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46451561A87AC30005E4C62 /* ViewController.swift in Sources */,
+				B46451541A87AC30005E4C62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464515F1A87AC30005E4C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B464516A1A87AC30005E4C62 /* LaPichangaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46451651A87AC30005E4C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B464514D1A87AC30005E4C62 /* LaPichanga */;
+			targetProxy = B46451641A87AC30005E4C62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B46451571A87AC30005E4C62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46451581A87AC30005E4C62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B464515C1A87AC30005E4C62 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B464515D1A87AC30005E4C62 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B464516B1A87AC30005E4C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B464516C1A87AC30005E4C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B464516E1A87AC30005E4C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaPichanga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B464516F1A87AC30005E4C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaPichanga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B46451711A87AC30005E4C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaPichangaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaPichanga.app/LaPichanga";
+			};
+			name = Debug;
+		};
+		B46451721A87AC30005E4C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaPichangaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaPichanga.app/LaPichanga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46451491A87AC30005E4C62 /* Build configuration list for PBXProject "LaPichanga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B464516B1A87AC30005E4C62 /* Debug */,
+				B464516C1A87AC30005E4C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B464516D1A87AC30005E4C62 /* Build configuration list for PBXNativeTarget "LaPichanga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B464516E1A87AC30005E4C62 /* Debug */,
+				B464516F1A87AC30005E4C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B46451701A87AC30005E4C62 /* Build configuration list for PBXNativeTarget "LaPichangaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46451711A87AC30005E4C62 /* Debug */,
+				B46451721A87AC30005E4C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46451461A87AC30005E4C62 /* Project object */;
+}
